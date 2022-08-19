@@ -1,7 +1,7 @@
 import React from 'react';
 import data from "./Components/Back/Data/Data";
 import Header from './Components/Front/Header/Header';
-import Routes from "./Components/Front/Routes/Routes";
+import Routes from './Components/Front/Routes/Routes';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 
@@ -12,7 +12,7 @@ const App = () => {
     <div>
       <Router>
         <Header />
-        <Routes />
+        <Routes productItems={productItems}/>
       </Router>
     </div>
   );
