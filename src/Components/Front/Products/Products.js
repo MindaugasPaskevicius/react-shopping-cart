@@ -14,7 +14,7 @@ const Products = ({ productItems }) => {
                      src={productItem.image} 
                      alt={productItem.name}
                      />
-                 </div>\
+                 </div>
 
                  <div>
                     <h3 className='product.name'>
